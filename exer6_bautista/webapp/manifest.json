@@ -68,16 +68,22 @@
         "async": true,
         "viewPath": "com.training.exer6_bautista.view",
         "controlAggregation": "pages",
-        "controlId": "App"
+        "controlId": "app",
+        "clearControlAggregation": false
       },
       "routes": [
-        {
+        { 
           "name": "RouteMainView",
           "pattern": ":?query:",
           "target": [
             "TargetMainView"
           ]
-        }
+        },
+        {
+          "name": "RouteReviewPage",
+          "pattern": "Review/{firstName}",
+          "target": [ "TargetReviewPage" ]
+                }
       ],
       "targets": {
         "TargetMainView": {
@@ -86,14 +92,18 @@
           "clearControlAggregation": false,
           "viewId": "MainView",
           "viewName": "MainView"
-        }
+        },
+        "TargetReviewPage": {
+                    "viewId": "ReviewPage",
+                    "viewName": "ReviewPage"
+                }
       }
     },
     "rootView": {
-      "viewName": "com.training.exer6_bautista.view.MainView",
+      "viewName": "com.training.exer6_bautista.view.App",
       "type": "XML",
       "async": true,
-      "id": "App"
+      "id": "app"
     }
   },
   "sap.cloud": {

@@ -9,5 +9,5 @@ function(BaseController) {
       onInit: function() {
       }
   });
-}
-);
+} 
+); 
