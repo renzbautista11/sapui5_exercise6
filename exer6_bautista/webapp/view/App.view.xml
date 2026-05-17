@@ -1,4 +1,4 @@
-<mvc:View controllerName="com.training.exer6bautista.controller.App"
+<mvc:View controllerName="com.training.exer6_bautista.controller.App"
     displayBlock="true"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
