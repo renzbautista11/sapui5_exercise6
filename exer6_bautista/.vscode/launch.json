@@ -5,7 +5,7 @@
       "name": "Start exer6_bautista",
       "type": "node",
       "request": "launch",
-      "cwd": "${workspaceFolder}/exer6_bautista",
+      "cwd": "${workspaceFolder}",
       "runtimeExecutable": "npx",
       "windows": {
         "runtimeExecutable": "npx.cmd"
@@ -31,7 +31,7 @@
       "name": "Start exer6_bautista Local",
       "type": "node",
       "request": "launch",
-      "cwd": "${workspaceFolder}/exer6_bautista",
+      "cwd": "${workspaceFolder}",
       "runtimeExecutable": "npx",
       "windows": {
         "runtimeExecutable": "npx.cmd"

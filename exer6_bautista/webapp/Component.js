@@ -1,26 +1,28 @@
 sap.ui.define([
     "sap/ui/core/UIComponent",
-    "com/training/exer6bautista/model/models"
-], (UIComponent, models) => {
+    "sap/ui/Device",
+    "com/training/exer6_bautista/model/models"
+], (UIComponent, Device, models) => {
     "use strict";
 
-    return UIComponent.extend("com.training.exer6bautista.Component", {
+    return UIComponent.extend("com.training.exer6_bautista.Component", {
         metadata: {
-            manifest: "json",
-            interfaces: [
-                "sap.ui.core.IAsyncContentCreation"
-            ]
+                manifest: "json"
         },
-
-        init() {
+            /**
+             * The component is initialized by UI5 automatically during the startup of the app and calls the init method once.
+             * @public
+             * @override
+             */
+        init: function() {
             // call the base component's init function
             UIComponent.prototype.init.apply(this, arguments);
 
-            // set the device model
-            this.setModel(models.createDeviceModel(), "device");
-
             // enable routing
             this.getRouter().initialize();
+
+            // set the device model
+            this.setModel(models.createDeviceModel(), "device");
         }
     });
 });

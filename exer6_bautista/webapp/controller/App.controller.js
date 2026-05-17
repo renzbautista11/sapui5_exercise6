@@ -1,10 +1,13 @@
-sap.ui.define([
+sap.ui.define(
+  [
   "sap/ui/core/mvc/Controller"
-], (BaseController) => {
+], 
+function(BaseController) {
   "use strict";
 
-  return BaseController.extend("com.training.exer6bautista.controller.App", {
-      onInit() {
+  return BaseController.extend("com.training.exer6_bautista.controller.App", {
+      onInit: function() {
       }
   });
-});
+}
+);

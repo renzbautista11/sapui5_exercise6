@@ -2,7 +2,7 @@
 
 specVersion: "4.0"
 metadata:
-  name: com.training.exer6bautista
+  name: com.training.exer6_bautista
 type: application
 framework:
   name: SAPUI5
