@@ -72,7 +72,7 @@
         "clearControlAggregation": false
       },
       "routes": [
-        {
+        { 
           "name": "RouteMainView",
           "pattern": ":?query:",
           "target": [

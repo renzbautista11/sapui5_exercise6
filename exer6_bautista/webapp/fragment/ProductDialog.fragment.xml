@@ -5,4 +5,4 @@
             <Button id="idButtonCloseDialog" text="{i18n>dialogCloseButtonText}" press="onCloseDialog"/>
         </beginButton>
     </Dialog>
-</core:FragmentDefinition>
+</core:FragmentDefinition> 

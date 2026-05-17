@@ -2,8 +2,8 @@
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true" height="100%"
     xmlns="sap.m"
     xmlns:f="sap.ui.layout.form"
-    xmlns:core="sap.ui.core">
-
+    xmlns:core="sap.ui.core"> 
+ 
     <Page id="page" title="{i18n>title}" floatingFooter="true" class="sapUiResponsivePadding--header sapUiResponsivePadding--content sapUiResponsivePadding--footer sapUiResponsivePadding--floatingFooter">
         <VBox id="idVBox" class="sapUiSmallMargin">
                 <f:SimpleForm id="idSimpleForm" editable="true" layout="ResponsiveGridLayout" title="{i18n>Details}" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false">

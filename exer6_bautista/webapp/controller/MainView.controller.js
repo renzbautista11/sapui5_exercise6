@@ -86,8 +86,8 @@ function (Controller, MessageToast) {
                     oCCDtlInput.setVisible(false);
                 }
                 sap.m.MessageToast.show("Selected Payment Method: " + sSelectedText);
-            },
-
+            }, 
+ 
         onPressCheckout: function ()
             {
                 var oInputFName = this.getView().byId("idInptFName");

@@ -28,7 +28,7 @@ sap.ui.define([
                 var oRouter = this.getOwnerComponent().getRouter();
 
                 if (sPreviousHash !== undefined) {
-                    window.history.go(-1);
+                    window.history.go(-1); 
                 } else {
                     oRouter.navTo("RouteMainView", {}, true);
                 }
